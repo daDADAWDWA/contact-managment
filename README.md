@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# Tria Nexus Contacts
 
-## Project info
+This is a simple contact management web app built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
+The app lets you add contacts, view them in a clean glass-styled layout, and search through them easily using the search bar.
+All data is stored in local state — no backend or database is used.
 
-**URL**: https://lovable.dev/projects/1a0596c2-6d2d-4515-b7b2-64bc1103b0bb
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## Live Demo
 
-**Use Lovable**
+You can check out the deployed version here:
+https://vercel.com/dadadawdwas-projects/contact-managment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a0596c2-6d2d-4515-b7b2-64bc1103b0bb) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Add new contacts with name, phone number, and email.
+* Search contacts instantly by name.
+* Responsive design that works on mobile, tablet, and desktop.
+* Smooth animations and a modern glassmorphism UI.
+* Built completely on the frontend using React and TypeScript.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **React + TypeScript** – for building the components and managing state.
+* **Vite** – for fast development and bundling.
+* **Tailwind CSS** – for styling and responsiveness.
+Framer Motion – used for simple transitions and animations.
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
+## How to Run Locally
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Clone the repository
 
-**Use GitHub Codespaces**
+   ```bash
+   git clone https://github.com/yourusername/tria-nexus-contacts.git
+   cd tria-nexus-contacts
+   ```
+2. Install dependencies
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   npm install
+   ```
+3. Start the development server
 
-## What technologies are used for this project?
+   ```bash
+   npm run dev
+   ```
+4. Open `http://localhost:5173` in your browser.
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Design Notes
 
-## How can I deploy this project?
+The main idea was to create a **clean and futuristic contact list** using gradients, blur effects, and subtle motion.
+I chose a glassmorphic look because it feels modern and helps the content stand out without too many colors.
+The UI is kept minimal and easy to navigate.
 
-Simply open [Lovable](https://lovable.dev/projects/1a0596c2-6d2d-4515-b7b2-64bc1103b0bb) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Future Improvements
 
-Yes, you can!
+* Option to edit or delete contacts.
+* Persistent storage using localStorage or an API.
+* Sorting and grouping contacts alphabetically.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built by **Aadish Jain** 
